@@ -19,7 +19,7 @@ export const Contact = () =>{
     return (
         <section className="contact-board">
             <BiLogoGmail className="contact-icons gmail" onClick={sendEmail} />
-            <RiWhatsappFill className="contact-icons whatsap" onClick={sendWhatsApp}/>
+            {/* <RiWhatsappFill className="contact-icons whatsap" onClick={sendWhatsApp}/> */}
             <FaPhoneSquareAlt className="contact-icons phone" onClick={makeCall}/>
         </section>
     )
