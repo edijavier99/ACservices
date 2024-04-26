@@ -1,0 +1,63 @@
+#contact-body{
+    height: auto;
+    margin: 0 auto;
+}
+.contact-heading{
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+#contact-form {
+    padding: 35px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 1px rgb(176, 176, 176);
+}
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form textarea{
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(216, 215, 215);
+    box-sizing: border-box; 
+}
+#contact-submit{
+    background-color: bisque;
+    border-radius: 10px;
+    border:none;
+    padding: 10px;
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 20px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+@media (max-width:768px){
+    #contact{
+        height: auto;
+    }
+    #contact-body{
+        flex-direction: column !important;
+        height: auto;
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        background-color: white;
+        padding: 0 !important; 
+    }
+    #contact-body > .left-side{
+        width: 100%;
+    }
+    .contact-out-title {
+        font-size: 60px;
+    }
+    .contact-channels{
+        grid-template-columns: 1fr;
+        gap: 0;
+        height: auto;
+        width: 90%;
+    }
+    .contact-heading{
+        font-size: 2rem;
+    }
+}

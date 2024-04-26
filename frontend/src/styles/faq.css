@@ -1,0 +1,62 @@
+#faq-board{
+    min-height: 100vh;
+    width: 100%;
+}
+.section-name{
+    padding: 40px 0px;
+}
+.section-name h4{
+    color: rgb(111, 124, 110);
+}
+.section-name h1{
+    color: black;
+    font-weight: 900;
+}
+.faq-body h2,.faq-footer h2{
+    font-weight: 750;
+}
+.faq-footer{
+    background-color:rgb(230, 230, 230);
+    padding: 40px 0;
+    border-radius: 10px;
+}
+.faq-btn{
+    border-radius: 10px;
+}
+
+
+/* -----acordion css ----- */
+.accordion-button:focus {
+    outline: none !important; /* Elimina el outline */
+    box-shadow: none !important; /* Opcional: elimina el shadow si también quieres quitarlo */
+}
+.accordion-item, .accordion-button{
+    background-color: transparent !important;
+}
+.accordion-button{
+    border-radius: 10px;
+    color: black !important;
+    font-weight: 700;
+    
+}  
+.accordion-button::after {
+    background-image: url("https://cdn-icons-png.flaticon.com/512/17/17132.png");
+}
+.accordion-button:not(.collapsed)::after{
+    background-image:url("https://cdn-icons-png.flaticon.com/512/43/43625.png") ;
+}
+#accordionExample{
+    border-radius: 10px;
+}
+.accordion-item{
+    margin-bottom: 10px;
+    border: none;
+}
+div.accordion-item .show{
+    background-color:rgb(230, 230, 230);
+    border-radius: 10px;
+    transition: background-color 0.3s ease; /* Agrega una transición suave para el cambio de color de fondo */
+
+}
+
+
