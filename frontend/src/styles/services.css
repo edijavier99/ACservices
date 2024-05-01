@@ -2,7 +2,6 @@
     width: 100%;
     min-height: 100vh;
 }
-
 .flip-card-front{
     position: relative; /* Asegura que el texto esté por encima del pseudo-elemento ::after */
     z-index: 2; /* Coloca el texto encima del pseudo-elemento ::after */
@@ -21,12 +20,17 @@
 }
 .services-left-side{
     text-align: left;
-    padding: 30px 30px 30px 80px;
+    padding: 30px 0px 30px 80px;
     margin-top: -40px;
 }
 .services-left-side h1,.services-info h1 {
     font-weight: 900;
 }
+.services-steps {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas de igual ancho */
+}
+
 .step > p{
     font-size: 14px !important;
     text-align: center;
@@ -61,7 +65,7 @@
 .eachService{
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: 85%;
     height: auto !important;
     margin: 0 auto;
     background-color: rgb(210, 237, 210);
@@ -102,21 +106,24 @@
 .carousel-indicators {
     position: relative !important;
 }
-@media (min-width: 768px){
-.col-md-6 {
-    flex: 0 0 auto;
-    width: auto !important;
+@media (max-width: 768px){
+    .col-md-6 {
+        flex: 0 0 auto;
+        width: auto !important;
+    }
+    .services-steps {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); /* Cambiar a una columna por fila */
+    }
 }
-}
+
 @media (width <= 992px) {
     .flip-card-front  {
       height: auto;
       text-align: center;
       flex-direction: column !important;
     }
-    .services-steps{
-        flex-direction: column;
-    }
+    
     .eachService{
         width: 90%;
     }

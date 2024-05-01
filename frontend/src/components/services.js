@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/services.css"
 import { Contact } from "./contact";
-import { FaBook, FaComment, FaCheckCircle } from 'react-icons/fa';
+import { FaBook, FaComment, FaCheckCircle,FaUserCheck } from 'react-icons/fa';
 
 export const Services = () =>{
     const genetalDescription = (
@@ -10,7 +10,6 @@ export const Services = () =>{
             <p>Our clients trust us and are pleased with our impeccable work. While we specialize in these three core services, we're open to adapting to the individual needs of each client, providing customized and flexible solutions. Let us demonstrate our dedication to quality and customer satisfaction in every service we perform.</p>
         </>
     );    
-    
     const homeClening = "Elevate your living space with our efficient house cleaning services. Our skilled team ensures a spotless home, tailored to your needs. Experience cleanliness and comfort like never before"
     const buildingCleaning = "Enhance your workplace environment with our comprehensive building cleaning solutions. Our dedicated team delivers top-notch cleaning services customized to meet your company's requirements. Trust us to maintain a pristine and inviting workspace for your employees and clients"
     const eventCleaning = "Elevate your event experience with our thorough cleaning services, offered before, during, and after your event. Our proactive team ensures impeccable cleanliness, creating a seamless and enjoyable atmosphere for your attendees. Trust us to handle the details so you can focus on hosting a successful event."
@@ -22,24 +21,28 @@ export const Services = () =>{
                     <header className="services-left-side col-md-11 col-lg-6">
                         <h1 className="py-3">OUR SERVICES</h1>
                         <div className="service-description">{genetalDescription}</div>
-                        <div className="services-steps d-flex justify-content-around">
-                            <div className="d-flex step flex-column align-items-center px-4">
+                        <div className="services-steps">
+                            <div className="d-flex step flex-column align-items-center px-3">
                                 <span className="step-icon"><FaComment/></span>
                                 <p className="pt-3">Establish effective communication with the client to understand their needs and expectations.</p>
                             </div>
-                            <div className="d-flex step flex-column align-items-center px-4">
+                            <div className="d-flex step flex-column align-items-center px-3">
                                 <span className="step-icon"><FaBook/></span>
                                 <p className="pt-3">Develop a detailed plan including resource allocation and clear objectives to achieve the best results.</p>
                             </div>
-                            <div className="d-flex step flex-column align-items-center px-4">
+                            <div className="d-flex step flex-column align-items-center px-3">
+                                <span className="step-icon"><FaUserCheck/></span>
+                                <p className="pt-3">Adjust and finalize the plan in collaboration with the client, ensuring alignment with their requirements and expectations.</p>
+                            </div>
+                            <div className="d-flex step flex-column align-items-center px-3">
                                 <span className="step-icon"><FaCheckCircle/></span>
                                 <p className="pt-3"> Execute the plan efficiently, ensuring customer satisfaction through impeccable cleaning and personalized attention.</p>
                             </div>
                         </div>
-                        <div className="services-contact-container">
+                        {/* <div className="services-contact-container">
                             <p>Get in touch with us</p>
                             <Contact/>
-                        </div>
+                        </div> */}
                     </header>
                     <main className="col-md-11 col-lg-6 services-right-side">
                         <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
