@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/reviews.css"
 import perplex from "../img/perplex.jpeg"
 import { ReviewCard } from "./reviewCard";
+import anywhereelse from "../img/anywhereelse.jpeg"
 
 export const Reviews = () =>{
         const perplexDescription = `
@@ -11,6 +12,13 @@ export const Reviews = () =>{
           and guest satisfaction. We can't recommend them enough!
         `;
 
+        const AnyWhereElse = `
+        I have been using AC Services for several years at 
+        all my events in London and can only recommend it! A 
+        lovely team of professional cleaners, flexible, always 
+        on time and providing quick and efficient communication!
+        `
+
     return(
         <section id="reviews" className="bg-light">
             <header className="reviews-header">
@@ -19,7 +27,7 @@ export const Reviews = () =>{
             </header>
             <div className="reviews-body col-md-11 m-auto">
                 <ReviewCard number="1" image={perplex} companyName="Perplex" description={perplexDescription}/>
-                <ReviewCard number="2" image={perplex} companyName="Atom" description={perplexDescription} />
+                <ReviewCard number="2" image={anywhereelse} companyName="Any Where Else" description={AnyWhereElse} />
                 <ReviewCard number="3" image={perplex} companyName="Reve" description={perplexDescription}/>
             </div>
         </section>

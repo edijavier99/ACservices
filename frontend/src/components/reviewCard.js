@@ -2,7 +2,7 @@ import React from "react";
 
 export const ReviewCard = (props) =>{
     return(
-                <article className="review-card col-11 m-auto">
+                <article className="review-card col-12 m-aut0">
                    <header className="review-card-header">
                         <span className="review-number">{props.number}</span>
                    </header>
