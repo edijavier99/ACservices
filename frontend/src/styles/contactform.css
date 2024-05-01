@@ -32,7 +32,7 @@
     box-shadow: 5px 5px 5px gray;
 }
 
-@media (max-width:768px){
+@media (max-width:992px){
     #contact{
         height: auto;
     }
@@ -58,6 +58,7 @@
         width: 90%;
     }
     .contact-heading{
-        font-size: 2rem;
+        width: 90%;
+        text-align: center;
     }
 }

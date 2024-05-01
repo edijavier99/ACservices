@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../styles/contactform.css"
 
+
 export const ContactForm  = () =>{
     const [firstName, setFirstName] = useState('');
     const [lastName, setLastName] = useState('');
@@ -54,13 +55,13 @@ export const ContactForm  = () =>{
     
     return(
         <section id="contact-body" className="d-flex flex-row col-md-11 p-3 my-5">
-                <div className="col-ms-12 col-md-5 col-lg-5 d-flex flex-column align-items-center justify-content-center ">
+                <div className="col-ms-12 col-md-12 col-lg-5 d-flex flex-column align-items-center justify-content-center ">
                     <h3 className="contact-heading"> Feel free to reach out <br/> 
                     further information by <br/> 
                     completing the <span className="text-success">contact</span> form.</h3>
                     <p className="text-muted"><i className="fas fa-user-clock me-2"></i>No more than 24 hours  since receiving your request.</p>
                 </div>
-                <div className="col-ms-12 col-md-7 col-lg-7">
+                <div className="col-ms-12 col-md-12 col-lg-7">
                     <form id="contact-form" className={`needs-validation ${validated ? 'was-validated' : ''}`} noValidate onSubmit={handleSubmit}>
                         <div className="row g-3">
                             <div className="col-sm-6">
