@@ -60,9 +60,9 @@
     .contact-heading{
         width: 90%;
         text-align: center;
+        font-size: 2rem !important;
     }
 }
-
 
 .alert{
     position: relative;
