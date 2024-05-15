@@ -29,15 +29,10 @@ export const Footer = () =>{
                     </li>
                 </ul>
               </div>
-              <div className="col-md-3">
-                <h5 className="text-uppercase mb-4 pb-1">Another way to contact Us </h5>
-                    <Contact/>
-              </div>
           </div>
           <div className="row mx-0 px-0 mt-3">
             <div className="col-md-12 text-center">
-                © 2020 Copyright.
-                <span className="ms-4">Ilarazi.com</span>
+                © 2020 All Rights Reserved to AC Sservices.
             </div>
           </div>
       </footer>
