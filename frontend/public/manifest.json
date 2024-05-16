@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "AC Services",
+  "name": "AC Services - House - Office - Event Cleaning",
   "icons": [
     {
       "src": "favicon.ico",
@@ -13,7 +13,7 @@
       "sizes": "192x192"
     },
     {
-      "src": "acs.png",
+      "src": "acsbig.png",
       "type": "image/png",
       "sizes": "512x512"
     }
