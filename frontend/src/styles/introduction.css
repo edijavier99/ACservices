@@ -1,6 +1,6 @@
-#introduction-board {
+#introduction-board{
     min-height: 100vh;
-    width: 100%;
+    width:100%;
     background-image: url("../img/backimg.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -11,8 +11,7 @@
     justify-content: center;
     flex-direction: column;
 }
-
-#introduction-board::before {
+#introduction-board::before{
     content: "";
     position: absolute;
     top: 0;
@@ -21,8 +20,7 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.6);
 }
-
-.inner-introduction-board {
+.inner-introduction-board{
     position: relative; /* Asegura que el texto esté por encima del pseudo-elemento ::after */
     z-index: 2; /* Coloca el texto encima del pseudo-elemento ::after */
     margin: 0; /* Asegúrate de eliminar cualquier margen predeterminado */
@@ -30,57 +28,81 @@
     color: white;
     text-align: center;
 }
-
-.inner-introduction-board h1,
-.inner-introduction-board h3 {
+.inner-introduction-board h1,.inner-introduction-board h3{
     font-weight: 900;
     font-size: 3rem;
     line-height: 90px;
 }
-
-.inner-introduction-board h1 {
+.inner-introduction-board h1{
     font-size: 4.5rem;
     letter-spacing: 6px;
 }
 
-.contactBtn {
+.contactBtn{
     border-radius: 15px;
     font-weight: 900;
     width: auto;
     padding: 5px 30px;
     letter-spacing: 2px;
 }
-
-.next-arrow {
+.next-arrow{
     position: absolute;
     color: white;
     bottom: 7px;
     font-size: 30px;
     z-index: 1;
 }
-
-.next-arrow:hover {
-    color: #198754;
+.next-arrow:hover{
+    color:  #198754;
 }
-
-@media (max-width: 992px) {
-    /* Estilos para dispositivos móviles */
-    .inner-introduction-board h1,
-    .inner-introduction-board h3 {
+@media (max-width:992px){
+    /* .inner-introduction-board {
+        transition: margin-top 0.4s ease; 
+    }
+    .inner-introduction-board.navbar-open {
+        margin-top: 260px !important; 
+    } */
+    .logo{
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        top: -10px;
+        right: -20px;
+    }
+    .inner-introduction-board h1,.inner-introduction-board h3{
+        font-weight: 900;
         font-size: 1.7rem;
         line-height: 50px;
     }
-
-    .inner-introduction-board h1 {
+    .inner-introduction-board h1{
         font-size: 2.5rem;
     }
-
-    .intro-description {
+    .intro-description{
         padding: 0px 35px;
         font-size: 1rem;
     }
-
-    .contactBtn {
+    .contactBtn{
         letter-spacing: 0px;
     }
+}
+
+
+@media screen and (orientation: landscape) and (max-height: 630px) {
+    .inner-introduction-board {
+        width: 100%;
+    }
+    /* .inner-introduction-board h1,
+    .inner-introduction-board h3 {
+        font-weight: 900;
+        font-size: 2.5rem;
+        line-height: 50px !important;
+    }
+    .inner-introduction-board h1 {
+        font-size: 4.5rem;
+        letter-spacing: 0 !important;
+    } */
+    #introduction-board{
+        min-height: 650px;
+    }
+
 }
