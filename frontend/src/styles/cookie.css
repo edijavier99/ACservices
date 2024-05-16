@@ -1,8 +1,24 @@
-#cb-cookie-banner{
-    position: fixed; 
-    bottom: 300px; 
-    right: 0; 
+.cookie-banner {
+    position: fixed;
+    bottom: 15px; 
     z-index: 999; 
-    border-radius: 0; 
-    border-radius: 20px;
+    max-width: 100%; 
+}
+
+#cb-cookie-banner {
+    border-radius: 10px; 
+    padding: 20px; 
+    background-color: #333;
+    color: #fff; 
+    font-size: 14px;
+    text-align: center;
+}
+
+#cb-cookie-banner a {
+    color: #fff; 
+    text-decoration: underline; 
+}
+
+#cb-cookie-banner button {
+    margin-left: 10px; 
 }
