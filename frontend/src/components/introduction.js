@@ -38,7 +38,7 @@ export const IntroductionBoard = (props) => {
             Learn more
           </a> */}
       </div>
-      <a className="next-arrow" href="#services-board"><FaArrowAltCircleDown/></a>
+      {/* <a className="next-arrow" href="#services-board"><FaArrowAltCircleDown/></a> */}
       <CookieBanner/>
     </section>
 
