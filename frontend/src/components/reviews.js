@@ -42,7 +42,7 @@ export const Reviews = () =>{
         `
 
     return(
-        <section id="reviews" className="bg-light">
+        <section id="reviews">
             <header className="reviews-header">
                 <h4>TESTIMONIALS</h4>
                 <h1>Take a Look at What our Amazing <br/> Clients Have Said</h1>
