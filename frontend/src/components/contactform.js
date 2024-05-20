@@ -41,7 +41,7 @@ export const ContactForm = () => {
                 <h3 className="contact-heading"> Feel free to reach out <br/>
                 further information by <br/>
                 completing the <span className="text-success">contact</span> form.</h3>
-                <p className="text-muted"><i className="fas fa-user-clock me-2"></i>No more than 24 hours since receiving your request.</p>
+                <p className="text-muted"><i className="fas fa-user-clock me-2"></i>Our team will respond on the same day we receive your message. Thank you.</p>
             </div>
             <div className="col-ms-12 col-md-12 col-lg-7">
                 <form id="contact-form" ref={form} onSubmit={sendEmail}>
