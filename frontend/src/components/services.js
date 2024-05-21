@@ -1,13 +1,12 @@
 import React from "react";
 import "../styles/services.css"
-import { Contact } from "./contact";
 import { FaBook, FaComment, FaCheckCircle,FaUserCheck } from 'react-icons/fa';
 
 export const Services = () =>{
     const genetalDescription = (
         <>
-            <p>At AC Services, our commitment to excellence shines through in every project we undertake. With extensive experience in home, building, and event cleaning, we've honed our skills to deliver exceptional results.</p>
-            <p>Our clients trust us and are pleased with our impeccable work. While we specialize in these three core services, we're open to adapting to the individual needs of each client, providing customized and flexible solutions. Let us demonstrate our dedication to quality and customer satisfaction in every service we perform.</p>
+            <p>At <strong>AC Services</strong>, our commitment to excellence shines through in every project we undertake. With extensive experience in <strong>home, building, and event cleaning</strong>, we've honed our skills to deliver exceptional results.</p>
+            <p>Our clients trust us and are pleased with our impeccable work. While we specialize in these three core services, we're open to adapting to the individual needs of each client, providing <strong> customized and flexible solutions.</strong> Let us demonstrate our dedication to quality and customer satisfaction in every service we perform.</p>
         </>
     );    
     const homeClening = "Elevate your living space with our efficient house cleaning services. Our skilled team ensures a spotless home, tailored to your needs. Experience cleanliness and comfort like never before"
@@ -39,10 +38,7 @@ export const Services = () =>{
                                 <p className="pt-3"> Execute the plan efficiently, ensuring customer satisfaction through impeccable cleaning and personalized attention.</p>
                             </div>
                         </div>
-                        {/* <div className="services-contact-container">
-                            <p>Get in touch with us</p>
-                            <Contact/>
-                        </div> */}
+                       
                     </header>
                     <main className="col-md-11 col-lg-6 services-right-side">
                         <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">

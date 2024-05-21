@@ -99,35 +99,6 @@
         min-height: 240px;
     }
 }
-
-
-
-/* 
-@media (max-width: 987px){
-    
-    .review-card{
-        height: 450px;
-    }
-    .review-card-body{
-        margin: 20px;
-    }
-    .review-card-header{
-        height: 60px !important;
-        width: 50px;
-        transform: translateY(100%);
-
-    }
-    .review-number{
-        height: 40px ;
-        width: 40px;
-    }
-    .review-card-footer{
-        transform: translateY(-30%);
-    }
+.indigoImg img{
+    width: 20px;
 }
-
-@media (max-width:576px) {
-    .review-card-body{
-        height: 300px;
-    }
-}  */
