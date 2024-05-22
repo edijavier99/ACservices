@@ -6,6 +6,7 @@ import anyWhereelse from "../img/anywhereelse.jpeg"
 import space from "../img/space14.png"
 import indigoImg from "../img/indigo.png"
 import SHDIGITAL from "../img/SHDIGITAL.png"
+import Collective from "../img/collective.jpg"
 
 export const Reviews = () =>{
         const perplexDescription = `
@@ -42,6 +43,11 @@ export const Reviews = () =>{
         Over the years, AC Services has become an indispensable partner for our business. 
         They are simply the best in the business! 😊
         `
+        const collective = `
+        AC Services has been essential to our success. Antonio and his team are professional,
+        flexible, and detail-oriented. They consistently meet our expectations, whether for events
+        or office setup. Their commitment to quality and prompt communication makes them highly recommendable.
+        `
 
     return(
         <section id="reviews">
@@ -66,7 +72,7 @@ export const Reviews = () =>{
                         <div className="reviews-body col-md-11 m-auto">
                             <ReviewCard number="4" image={indigoImg} className="indigoImg" companyName="Indigo" description={indigo}/>
                             <ReviewCard number="5" image={space} companyName="Space 14" description={space14} />
-                            <ReviewCard number="6" image={perplex} companyName="Sh Digital" description={shDigital}/>
+                            <ReviewCard number="6" image={Collective} companyName="The Collective" description={collective}/>
                         </div> 
                     </div>
                 </div>
