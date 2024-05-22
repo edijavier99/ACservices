@@ -1,5 +1,4 @@
 import React from "react";
-import { Contact } from "./contact";
 import "../styles/footer.css"
 
 export const Footer = () =>{
@@ -22,17 +21,14 @@ export const Footer = () =>{
                       <span className="fa-li"><i className="fas fa-home"></i></span><span className="ms-2">London, UK</span>
                     </li>
                     <li className="mb-3">
-                      <span className="fa-li"><i className="fas fa-envelope"></i></span><span className="ms-2">info@acservices.com</span>
-                    </li>
-                    <li className="mb-2">
-                      <span className="fa-li"><i className="fas fa-phone"></i></span><span className="ms-2">+ 44 234 567 88</span>
+                      <span className="fa-li"><i className="fas fa-envelope"></i></span><span className="ms-2">infoacservices@gmail.com</span>
                     </li>
                 </ul>
               </div>
           </div>
           <div className="row mx-0 px-0 mt-3">
             <div className="col-md-12 text-center">
-                © 2020 All Rights Reserved to AC Support Services.
+                © 2020 All Rights Reserved to AC Services.
             </div>
           </div>
       </footer>

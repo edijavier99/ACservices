@@ -20,61 +20,67 @@ export const FAQ = () =>{
                         <div className="accordion-item">
                             <h2 className="accordion-header" id="headingTwo">
                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-                            Are you insured and certified?
+                            What is your company's experience in the cleaning sector?
                             </button>
                             </h2>
                             <div id="collapseTwo" className="accordion-collapse collapse show" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                            <div className="accordion-body">
-                                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                            </div>
+                                <div className="accordion-body">
+                                    We have over <span className="text-success fw-bold">10 years of experience</span> in the cleaning industry, providing high-quality services to a wide variety of clients. Our extensive experience has allowed us to perfect our techniques and ensure customer satisfaction.                           
+                                </div>
                             </div>
                         </div>
                         <div className="accordion-item">
                             <h2 className="accordion-header" id="headingThree">
                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            What cleaning products do you use?
+                            Are you flexible with last-minute changes?                            
                             </button>
                             </h2>
                             <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                            <div className="accordion-body">
-                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                            </div>
+                                <div className="accordion-body">
+                                    Yes, we understand that needs can change unexpectedly. <span className="fw-bold text-success">We adapt to last-minute changes</span>  to ensure that our services align with your requirements at all times, offering maximum flexibility and a quick response to your needs.
+                                </div>
                             </div>
                         </div>
                         <div className="accordion-item">
                             <h2 className="accordion-header" id="headingThree">
                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                            Can I request the same cleaning team regularly?
+                            What is the quality of the products you use?
                             </button>
                             </h2>
                             <div id="collapseFour" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                            <div className="accordion-body">
-                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                            </div>
+                                <div className="accordion-body">
+                                    We use<span className="fw-bold text-success"> high-quality products and the latest innovations</span> available on the market. This allows us to guarantee efficient and safe cleaning, protecting both the environment and the health of our clients.                           
+                                </div>
                             </div>
                         </div>
                         <div className="accordion-item">
                             <h2 className="accordion-header" id="headiingOne">
                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                            What cleaning services do you offer?                            </button>
+                            Do you offer personalized quotations?
+                           </button>
                             </h2>
                             <div id="collapseOne" className="accordion-collapse collapse" aria-labelledby="headiingOne" data-bs-parent="#accordionExample">
-                            <div className="accordion-body">
-                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                <div className="accordion-body">
+                                    Yes, we provide <span className="fw-bold text-success">personalized quotations</span> tailored to the specific needs of each client. We assess your requirements and provide a detailed quote to ensure you receive the best service at the best price.                            
+                                </div>
                             </div>
+                        </div>
+                        <div className="accordion-item">
+                            <h2 className="accordion-header" id="headingFive">
+                            <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            Do you supply the cleaning products yourselves?                           
+                            </button>
+                            </h2>
+                            <div id="collapseFive" className="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                                <div className="accordion-body">
+                                Yes, <span className="fw-bold text-success">we provide all the necessary cleaning products.</span> This includes the use of high-quality items that ensure optimal results and maintain high hygiene standards in every service we perform.                            
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </main>
             <ContactForm />
-            {/* <footer className="row mx-0 px-0">
-                <div className=" col-11 col-md-11 faq-footer mb-5 text-center mx-auto">
-                    <h2>Still Have More Questions ?</h2>
-                    <p className="text-muted">Feel free to reach out to us with any inquiries or requirements.</p>
-                    <button className="btn btn-success faq-btn">CONTACT NOW</button>
-                </div>
-            </footer> */}
         </section>
     )
 }

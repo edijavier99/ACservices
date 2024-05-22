@@ -5,6 +5,7 @@ import { ReviewCard } from "./reviewCard";
 import anyWhereelse from "../img/anywhereelse.jpeg"
 import space from "../img/space14.png"
 import indigoImg from "../img/indigo.png"
+import SHDIGITAL from "../img/SHDIGITAL.png"
 
 export const Reviews = () =>{
         const perplexDescription = `
@@ -58,7 +59,7 @@ export const Reviews = () =>{
                         <div className="reviews-body col-md-11 m-auto">
                             <ReviewCard number="1" image={perplex} companyName="Perplex" description={perplexDescription}/>
                             <ReviewCard number="2" image={anyWhereelse} companyName="Any Where Else" description={anyWhereElse} />
-                            <ReviewCard number="3" image={perplex} companyName="Sh Digital" description={shDigital}/>
+                            <ReviewCard number="3" image={SHDIGITAL} companyName="Sh Digital" description={shDigital}/>
                         </div>
                     </div>
                     <div class="carousel-item">
