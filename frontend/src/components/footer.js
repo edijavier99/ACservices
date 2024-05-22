@@ -21,7 +21,7 @@ export const Footer = () =>{
                       <span className="fa-li"><i className="fas fa-home"></i></span><span className="ms-2">London, UK</span>
                     </li>
                     <li className="mb-3">
-                      <span className="fa-li"><i className="fas fa-envelope"></i></span><span className="ms-2">infoacservices@gmail.com</span>
+                      <span className="fa-li"><i className="fas fa-envelope"></i></span><span className="ms-2">infoacservicesio@gmail.com</span>
                     </li>
                 </ul>
               </div>
