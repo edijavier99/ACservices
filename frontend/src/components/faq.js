@@ -8,7 +8,7 @@ export const FAQ = () =>{
             <header className="row mx-0 px-0">
                 <div className="col-md-12 section-name d-flex flex-column align-items-center">
                     <h4>SUPPORT</h4>
-                    <h1>Everything You Need To Know</h1>
+                    <h1 className="text-center">Everything You Need To Know</h1>
                     <p className="text-muted text-center">Need something cleared up? Here are our most frecuenlty asked questions. </p>
                 </div>
             </header>
