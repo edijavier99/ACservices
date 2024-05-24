@@ -64,6 +64,15 @@
     }
 }
 
+@media (max-width: 576px) {
+    .contact-heading{
+        font-size: 1.5rem !important;
+    }
+    .contact-heading-description{
+        text-align: center;
+    }
+}
+
 .alert{
     position: relative;
     border-radius: 10px;

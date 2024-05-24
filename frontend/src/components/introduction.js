@@ -23,7 +23,7 @@ export const IntroductionBoard = (props) => {
     <section id="introduction-board">
       <Navbar items={menu} onToggle={handleNavbarToggle} />
       <div
-          className={`inner-introduction-board col-md-6 mt-4 ${
+          className={`inner-introduction-board col-md-6 my-4 ${
             navbarOpen ? "navbar-open" : ""
           }`}
         >
