@@ -50,10 +50,12 @@
     background-color: white;
     padding: 40px 20px;
     /* background-color: rgb(234, 232, 232); */
-    height: 300px;
+    min-height:410px;
 }
 .review-card-body p{
     padding: 0px 20px;
+    word-wrap: break-word;
+
 }
 .review-card-footer{
     width: 100%;
@@ -91,12 +93,12 @@
     object-fit: cover;
 }
 
-@media (max-width: 1088px) {
+@media (max-width: 1125px) {
     .reviews-body{
         grid-template-columns: 1fr;
     }
     .review-card-body{
-        min-height: 240px;
+        min-height: 270px;
     }
 }
 .indigoImg img{

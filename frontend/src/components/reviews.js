@@ -25,9 +25,9 @@ export const Reviews = () =>{
         const shDigital = `
         AC Services's comprehensive cleaning services, combined with their 
         exceptional office setup capabilities, have truly transformed our
-        workspace. The team is highly professional and detail-oriented. 
+        workspace. Highly professional and detail-oriented. 
         What sets them apart is their ability to go beyond cleaning
-        by efficiently organizing and setting up our office space. They are the best!
+        by efficiently organizing and setting up our space. They're the best!
         `
         const indigo = `
         We recently engaged their services for an important event, and their
@@ -37,7 +37,7 @@ export const Reviews = () =>{
         reliable and effective services for their events.
         `
         const space14 = `
-        We have been relying on AC Cleaning Services for over a decade now.
+        We have been relying on AC Services for over a decade now.
         From office cleanings to corporate events and nightlife gatherings.
         Whether it's a last-minute event cleanup or our routine office maintenance.
         Over the years, AC Services has become an indispensable partner for our business. 
@@ -48,7 +48,7 @@ export const Reviews = () =>{
         flexible, and detail-oriented. They consistently meet our expectations, whether for events
         or office setup. Their commitment to quality and prompt communication makes them highly recommendable.
         `
-
+        
     return(
         <section id="reviews">
             <header className="reviews-header">
