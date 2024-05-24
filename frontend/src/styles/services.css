@@ -6,7 +6,7 @@
     position: relative; /* Asegura que el texto esté por encima del pseudo-elemento ::after */
     z-index: 2; /* Coloca el texto encima del pseudo-elemento ::after */
     margin: 0; /* Asegúrate de eliminar cualquier margen predeterminado */
-    padding: 80px 0px; /* Asegúrate de eliminar cualquier relleno predeterminado */
+    padding: 50px 0px; /* Asegúrate de eliminar cualquier relleno predeterminado */
     color: black;
     text-align: center;
     -webkit-backface-visibility: hidden;
@@ -82,7 +82,7 @@
     border-radius: 20px;
 }
 .services-info{
-    height: 280px;
+    height: 290px;
 }
 .flip-card-front h2 {
     font-size: 22px;
@@ -92,6 +92,7 @@
     font-size: 1rem;
     font-weight: 400;
     margin-bottom: 24px;
+    padding: 0px 25px 0px 25px;
 }
 
 .carousel-inner{
@@ -131,3 +132,10 @@
         padding: 30px !important;
     }
   }
+
+
+@media (width <= 400px) {
+    .services-info{
+        height: 335px;
+    }
+}

@@ -55,7 +55,7 @@ export const Services = () =>{
                                     </div>
                                     <div className="services-info text-center col-md-10">
                                         <h1 className="text-center py-3">Office Cleaning</h1>
-                                        <p  className="p-1">{buildingCleaning}</p>
+                                        <p>{buildingCleaning}</p>
                                     </div> 
                                 </div>            
                             </div>
@@ -66,7 +66,7 @@ export const Services = () =>{
                                     </div>
                                     <div className="services-info text-center col-md-10">
                                         <h1 className="text-center py-3">Event Cleaning</h1>
-                                        <p  className="p-1">{eventCleaning}</p>
+                                        <p>{eventCleaning}</p>
                                     </div> 
                                 </div>          
                             </div>
@@ -77,7 +77,7 @@ export const Services = () =>{
                                     </div>
                                     <div className="services-info text-center col-md-10">
                                         <h1 className="text-center p-3">House Cleaning</h1>
-                                        <p className="p-1">{homeClening}</p>
+                                        <p>{homeClening}</p>
                                     </div> 
                                 </div>       
                             </div>
