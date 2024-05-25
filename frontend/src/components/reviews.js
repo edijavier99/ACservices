@@ -10,43 +10,53 @@ import Collective from "../img/collective.jpg"
 
 export const Reviews = () =>{
         const perplexDescription = `
-        At Perplex, for over 5 years, AC Services has exceeded our event
-         expectations. Antonio and his team are professional, adaptable,
-          and detail-oriented. Their contribution ensures event success 
-          and guest satisfaction. We can't recommend them enough!
+      
+        At Perplex, we've relied on AC Services for 5+ years at our events.
+        Antonio and his team are thorough, efficient, professional, and
+        adaptable. Their attention to detail and high 
+        standards ensure event success and guest satisfaction. We won't 
+        do an event without them - highly recommend!
         `;
 
         const anyWhereElse = `
-        I have been using AC Services for several years at 
-        all my events in London and can only recommend it! A 
-        lovely team of professional cleaners, flexible, always 
-        on time and providing quick and efficient communication!
+     
+        I have been using AC Cleaning services for several years 
+        at all my events in London and can only recommend it! A 
+        lovely team of professional cleaners, flexible, always on
+        time and providing quick and efficient communication. 
+        Their dedication and attention to detail are remarkable.
         `
         const shDigital = `
-        AC Services's comprehensive cleaning services, combined with their 
-        exceptional office setup capabilities, have truly transformed our
-        workspace. Highly professional and detail-oriented. 
-        What sets them apart is their ability to go beyond cleaning
-        by efficiently organizing and setting up our space. They're the best!
+    
+        AC Services's comprehensive cleaning services and exceptional office
+        setup capabilities have transformed our workspace. The team is highly
+        professional and detail-oriented, delivering top-notch services that
+        ensure every corner is spotless. They go beyond cleaning by efficiently
+        organizing our office space.
+        They are the best!
         `
         const indigo = `
-        We recently engaged their services for an important event, and their
-        team delivered exceptional service that exceeded our expectations.
+    
+        We engaged their services for an important event, and they delivered 
+        exceptional service that exceeded our expectations.
         What impressed us the most was their commitment to quality and 
         customer satisfaction. We highly recommend AC Services to anyone seeking 
         reliable and effective services for their events.
         `
         const space14 = `
-        We have been relying on AC Services for over a decade now.
+       
+        We've been relying on AC Services for over a decade now.
         From office cleanings to corporate events and nightlife gatherings.
-        Whether it's a last-minute event cleanup or our routine office maintenance.
-        Over the years, AC Services has become an indispensable partner for our business. 
+        Whether it's a last-minute event or our routine office maintenance.
+        AC Services has become an indispensable partner for our business. 
         They are simply the best in the business! 😊
         `
         const collective = `
-        AC Services has been essential to our success. Antonio and his team are professional,
-        flexible, and detail-oriented. They consistently meet our expectations, whether for events
-        or office setup. Their commitment to quality and prompt communication makes them highly recommendable.
+     
+        AC Services has been absolutely essential to our success. Antonio and his team
+        are professional, flexible, and extremely detail-oriented. They consistently 
+        exceed our expectations, whether for events or office setup. Their unwavering
+        commitment to quality and prompt communication makes them highly recommendable.
         `
         
     return(
