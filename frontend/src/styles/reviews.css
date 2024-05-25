@@ -107,6 +107,6 @@
 
 @media (width<=576px) {
     .review-card-body{
-        min-height: 300px;
+        min-height: 360px;
     }
 }
